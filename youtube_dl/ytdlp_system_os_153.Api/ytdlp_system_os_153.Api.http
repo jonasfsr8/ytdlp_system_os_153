@@ -1,0 +1,6 @@
+@ytdlp_system_os_153.Api_HostAddress = http://localhost:5270
+
+GET {{ytdlp_system_os_153.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

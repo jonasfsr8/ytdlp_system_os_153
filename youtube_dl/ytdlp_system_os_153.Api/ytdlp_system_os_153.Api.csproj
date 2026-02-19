@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ytdlp_system_os_153.Application\ytdlp_system_os_153.Application.csproj" />
+    <ProjectReference Include="..\ytdlp_system_os_153.Infrastructure\ytdlp_system_os_153.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

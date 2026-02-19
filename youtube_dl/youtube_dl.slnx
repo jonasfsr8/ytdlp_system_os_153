@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Api/">
+    <Project Path="ytdlp_system_os_153.Api/ytdlp_system_os_153.Api.csproj" />
+  </Folder>
+  <Folder Name="/Core/" />
+  <Folder Name="/Core/Application/">
+    <Project Path="ytdlp_system_os_153.Application/ytdlp_system_os_153.Application.csproj" />
+  </Folder>
+  <Folder Name="/Core/Domain/">
+    <Project Path="ytdlp_system_os_153.Domain/ytdlp_system_os_153.Domain.csproj" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="ytdlp_system_os_153.Infrastructure/ytdlp_system_os_153.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Worker/">
+    <Project Path="ytdlp_system_os_153.Worker/ytdlp_system_os_153.Worker.csproj" />
+  </Folder>
+</Solution>
