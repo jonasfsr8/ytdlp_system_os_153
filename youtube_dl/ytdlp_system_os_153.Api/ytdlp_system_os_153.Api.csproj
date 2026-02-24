@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ytdlp_system_os_153.Application\ytdlp_system_os_153.Application.csproj" />
-    <ProjectReference Include="..\ytdlp_system_os_153.Infrastructure\ytdlp_system_os_153.Infrastructure.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="10.1.4" />
   </ItemGroup>
 
 </Project>

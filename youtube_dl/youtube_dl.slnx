@@ -1,6 +1,6 @@
 <Solution>
   <Folder Name="/Api/">
-    <Project Path="ytdlp_system_os_153.Api/ytdlp_system_os_153.Api.csproj" />
+    <Project Path="ytdlp_system_os_153.Api/ytdlp_system_os_153.Api.csproj" Id="fc1940d5-f5ba-4792-ae08-213231484749" />
   </Folder>
   <Folder Name="/Core/" />
   <Folder Name="/Core/Application/">
