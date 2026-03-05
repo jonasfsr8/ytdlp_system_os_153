@@ -21,9 +21,9 @@
             PasswordHash = passwordHash;
         }
 
-        public void SetPasswordHash(string passwordHash)
+        public void SetPasswordHash(string passwordHash, string pass)
         {
-            if (string.IsNullOrWhiteSpace(passwordHash))
+            if (string.IsNullOrWhiteSpace(pass))
                 throw new ArgumentException("Password hash cannot be empty");
 
             PasswordHash = passwordHash;

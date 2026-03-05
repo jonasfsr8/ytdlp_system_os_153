@@ -29,7 +29,7 @@ namespace ytdlp_system_os_153.Infrastructure.Repositories
         public void Delete(T entity)
         {
             entity.DateDeleted = DateTimeOffset.UtcNow;
-            _context.Remove(entity);
+            _context.Update(entity);
         }
 
         public async Task<T> GetAsync(Guid id, CancellationToken cancellationToken)
